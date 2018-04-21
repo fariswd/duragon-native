@@ -20,4 +20,41 @@ My boilerplate for react native CRNA
 - Redux
 - React Native Elements
 
+## Tree
+```
+.
+├── App.js
+├── app.json
+├── App.test.js
+├── package.json
+├── README.md
+├── src
+│   ├── assets
+│   │   └── img
+│   │       └── logo.png
+│   ├── component
+│   │   └── InputTextField.js
+│   ├── config
+│   │   └── store.js
+│   ├── navigation
+│   │   ├── AuthNavigation.js
+│   │   └── RootNavigation.js
+│   ├── reducer
+│   │   ├── auth.js
+│   │   └── index.js
+│   └── screen
+│       ├── home
+│       │   └── index.js
+│       ├── index.js
+│       ├── login
+│       │   ├── component
+│       │   │   └── LoginForm.js
+│       │   └── index.js
+│       ├── profile
+│       │   └── index.js
+│       └── splash
+│           └── index.js
+└── yarn.lock
+```
+
 :rocket:
