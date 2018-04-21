@@ -7,7 +7,7 @@ import {
 
 export default function HomeScreen(props) {
   return (
-    <View>
+    <View style={{marginTop: 30}}>
       <Text>Hi this is Home Screen</Text>
       <Button
         onPress={() => props.navigation.navigate('Profile', { sendMe: 'capung was here'})}

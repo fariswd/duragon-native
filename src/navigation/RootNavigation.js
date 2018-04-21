@@ -8,12 +8,12 @@ import LoginScreen from '../screen/login'
 export default StackNavigator({
     Home: {
       screen: HomeScreen,
+      navigationOptions: { header: null },
     },
     Profile: {
       screen: ProfileScreen,
     },
   }, {
     initialRouteName: 'Home',
-    navigationOptions: { header: null },
   }
 );
